@@ -1,0 +1,40 @@
+<html>
+<head><title>Track Order</title>
+<script>
+function myFunction() {
+  alert("Your order arriving Feb 25, 2020");
+}
+</script>
+<style>
+	body
+	{
+		background-color: blanchedalmond;
+		text-align: center;
+	}
+	input
+	{
+		padding: 5px;
+		border-radius: 10px;
+	}
+	.btn
+		{
+			background-color: crimson;
+  			color: black;
+  			font-weight: 900;
+		}	
+</style>
+</head>
+
+<body>
+<form >
+	<h2 style="font-size: 30px;color: crimson;padding: 30px;">Track Order</h2>
+	<hr><br><br>
+	<p>Order number : </p>
+	<input type="text" id="onum" required> <br><br>
+	<p>Email : </p>
+	<input type="text" id="email" required> <br><br>
+	<input type="submit" value="Track Order" onclick="myFunction()" class="btn"> 
+</form>
+<!--<b><h2><p id="orderdet"></h2></b></p>-->
+</body>
+</html>

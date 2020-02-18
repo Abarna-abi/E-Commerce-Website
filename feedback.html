@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>Feedbacl</title>
+<style>
+  		body{
+			background-color:blanchedalmond;
+			text-align: center;
+		}
+		input, textarea
+		{
+			border-radius: 10px;
+			padding: 10px;
+		}
+		.btn
+		{
+			background-color: crimson;
+  			color: black;
+  			font-weight: 900;
+		}
+		table
+		{
+			text-align: center;
+			padding-left: 39%;
+    		padding-top: 2%;
+    		padding-bottom: 2%;
+		}    
+</style>
+<script>
+  function alertmsg()
+  {
+    alert("Feedback received!");
+  }
+</script>
+</head>
+
+<body>
+  <h2 style="font-size: 30px;padding:20px;color: crimson">FeedBack</h2>
+  <hr>
+  <table>
+  <tr>
+    <td><b>Name:</b></td>
+    <td><input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required/></td>
+  </tr>
+    <tr>
+      <td>
+        <b>Email:</b>
+      </td>
+      <td>
+        <input type="text" name="email" id="email" class="form-control" placeholder="Enter your Email" required/>
+      </td>
+    </tr>
+  </tr>
+</table>
+<p><b>Feedback</b></p>
+<textarea id="address" class="input-textarea" name="comment" placeholder="Feedback"></textarea><br /><br />
+
+      <input type="submit" value="Submit" class="btn" onclick="alertmsg()">
+
+</body>
+</html>
